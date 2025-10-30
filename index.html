@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/script.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <section class="splitter">
+      <h1 class="title">spli<span class="title">tter</span></h1>
+      <div class="splitter__content">
+        <div class="splitter__main">
+          <div class="splitter__billing-section">
+            <div class="splitter__billing-header">
+              <span class="splitter__title">Bill</span>
+              <span class="input-error">error</span>
+            </div>
+            <div class="splitter__input-box">
+              <input type="number" class="splitter__input splitter__input--bill error" placeholder="0">
+              <img src="/images/icon-dollar.svg" width="11" height="17" loading="lazy" alt="" class="splitter__icon">
+            </div>
+          </div>
+          <div class="splitter__selection">
+            <span class="splitter__title splitter__title--tip">Select Tip %</span>
+            <div class="splitter__selection-box">
+              <button class="splitter__btn" data-value="0.05">5%</button>
+              <button class="splitter__btn" data-value="0.1">10%</button>
+              <button class="splitter__btn" data-value="0.15">15%</button>
+              <button class="splitter__btn" data-value="0.25">25%</button>
+              <button class="splitter__btn" data-value="0.50">50%</button>
+              <input type="number" class="splitter__custom-input" placeholder="Custom">
+              <p class="input-error input-error-custom">error</p>
+            </div>
+          </div>
+          <div class="splitter__billing-section">
+            <div class="splitter__billing-header">
+              <span class="splitter__title">Number of People</span>
+              <span class="input-error">error</span>
+            </div>
+            <div class="splitter__input-box">
+              <input type="number" class="splitter__input splitter__input--people error" placeholder="0">
+              <img src="/images/icon-person.svg" width="13" height="16" loading="lazy" alt="" class="splitter__icon">
+            </div>
+          </div>
+        </div>
+
+        <div class="splitter__results">
+          <div class="splitter__results-box">
+            <div class="splitter__results-tip">
+              <span class="splitter__tip-info">Tip Amount</span>
+              <p class="splitter__info">/ person</p>
+            </div>
+            <span class="splitter__tip-amount splitter__tip-tip">$0.00</span>
+          </div>
+          <div class="splitter__results-box">
+            <div class="splitter__results-tip">
+              <span class="splitter__tip-info">Total</span>
+              <p class="splitter__info">/ person</p>
+            </div>
+            <span class="splitter__tip-amount splitter__tip-total">$0.00</span>
+          </div>
+          <button class="splitter__reset-btn" disabled>RESET</button>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Challenge by Frontend Mentor - https://www.frontendmentor.io?ref=challenge  -->
+  </div>
+</body>
+
+</html>
