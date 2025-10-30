@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-(Add your screenshots here)
+![Desktop Design Empty](/design/desktop-design-empty.jpg)
 
 ### Links
 
