@@ -30,12 +30,6 @@ Users should be able to:
 
 ![Desktop Design Empty](/design/desktop-design-empty.jpg)
 
-### Links
-
-- Solution URL: [Add your solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add your live site URL here](https://your-live-site-url.com)
-
-## My Process
 
 ### Built With
 
@@ -62,16 +56,9 @@ I plan to continue improving this project by:
 - Adding more robust error handling and user feedback.
 - Exploring different animation and transition effects for a smoother user experience.
 
-### Useful Resources
-
-- [Frontend Mentor](https://www.frontendmentor.io) - This is where I found the challenge.
-- [W3Schools](https://www.w3schools.com) - A great resource for web development tutorials.
-- [MDN Web Docs](https://developer.mozilla.org) - Comprehensive documentation for web technologies.
-
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourtwitterhandle](https://www.twitter.com/yourtwitterhandle)
+- Frontend Mentor - [@Umarcss](https://www.frontendmentor.io/profile/Umarcss)
 
 ## Acknowledgments
 
